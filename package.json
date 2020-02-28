@@ -1,0 +1,23 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnLitoBardinas/johnLitoBardinas.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://johnlitobardinas.github.io/mywebsite",
+  "bugs": {
+    "url": "https://github.com/johnLitoBardinas/johnLitoBardinas.github.io/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

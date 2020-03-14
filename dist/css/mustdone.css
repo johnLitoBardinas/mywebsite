@@ -1,0 +1,54 @@
+.text-uppercase {
+    text-transform: uppercase;
+    margin: 5px 0px;
+    display: inline-block;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 6.16rem;
+}
+
+.content {
+    max-width: calc(100vw - 20%);
+    border: thin solid red;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content > .vernt-rules__text{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.content > .vernt-rules__items{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.content > .vernt-rules__items > li {
+    padding: 3px;
+}
+.content > hr {
+    max-width: calc(100% - 50px);
+}
+
+.content > strong {
+    font-size: 1.5rem;
+    padding-left: 2.5rem;
+}
+
+.content ul > li {
+    margin: 10px 0px;
+}
+
+.fucking-done {
+    text-decoration: underline;
+}

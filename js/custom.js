@@ -129,7 +129,7 @@ $(function() {
         $(this).addClass("active").siblings().removeClass("active")
     }), $("#contact-form").validator(), $("#contact-form").on("submit", function(t) {
         t.preventDefault();
-        var mailChimpUrl = "https://gmail.us4.list-manage.com/subscribe/post-json?u=e58db76ac26ac0e4e9a86e3f0&amp;id=0774267233";
+        var mailChimpUrl = "https://dev.us17.list-manage.com/subscribe/post-json?u=1327ea4393ec9fe507bf46534&amp;id=ce7d57428e";
         var $name = $(this).find('#name');
         var $email = $(this).find('#email');
         var $message = $(this).find('#message');
